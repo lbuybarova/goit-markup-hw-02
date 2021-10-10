@@ -4,6 +4,8 @@
   --secondary-title-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
+  --hero-backgrond: #2f303a;
+  --footer-background: #2f303a;
 }
 
 body {
@@ -129,6 +131,7 @@ body {
 }
 
 .btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -155,7 +158,6 @@ body {
 }
 
 .reasons-item-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -171,7 +173,6 @@ body {
 }
 
 .about-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -180,7 +181,6 @@ body {
 }
 
 .workers-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -197,7 +197,6 @@ body {
 }
 
 .workers-item-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -224,7 +223,6 @@ body {
   cursor: pointer;
 }
 .work-examples-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -232,7 +230,6 @@ body {
 }
 
 .work-examples-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -241,7 +238,7 @@ body {
 /* -----------------------------footer------------------------ */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--hero-backgrond);
 }
 
 .footer-mail {
