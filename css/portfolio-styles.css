@@ -37,7 +37,6 @@ body {
   left: 215px;
   top: 24px;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -51,7 +50,6 @@ body {
   left: 215px;
   top: 2157px;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -98,9 +96,25 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
 /* -----------------------------------main--------------------------------- */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 .filters-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -109,6 +123,14 @@ body {
   color: var(--secondary-title-color);
 }
 
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.pointer {
+  cursor: pointer;
+}
 .work-examples-title {
   font-weight: 700;
   font-size: 18px;
@@ -163,4 +185,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
 }

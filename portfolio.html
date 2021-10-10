@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/portfolio-styles.css">
     <title>Портфолио</title>
 </head>
@@ -20,7 +20,7 @@
                     <a href="index.html" class="link menu-link">Студия</a>
                 </li>
                 <li>
-                    <a href="portfolio.html" class="link menu-link">Портфолио</a>
+                    <a href="portfolio.html" class="link menu-link current">Портфолио</a>
                 </li>
                 <li>
                     <a href="" class="link menu-link">Контакты</a>
@@ -37,24 +37,25 @@
         </ul>
     </header>
     <main>
+        <h1 class="visually-hidden">Портфолио</h1>
         <ul class="list">
             <li>
-                <button type="button filters-btn">Все</button>
+                <button type="button" class="filters-btn pointer">Все</button>
             </li>
             <li>
-                <button type="button filters-btn">Веб-сайты</button>
+                <button type="button" class="filters-btn pointer">Веб-сайты</button>
             </li>
             <li>
-                <button type="button filters-btn">Приложения</button>
+                <button type="button" class="filters-btn pointer">Приложения</button>
             </li>
             <li>
-                <button type="button filters-btn">Дизайн</button>
+                <button type="button" class="filters-btn pointer">Дизайн</button>
             </li>
             <li>
-                <button type="button filters-btn">Маркетинг</button>
+                <button type="button" class="filters-btn pointer">Маркетинг</button>
             </li>
         </ul>
-        <h2 hidden>Примеры работ</h2>
+        <h2 class="visually-hidden">Примеры работ</h2>
         <ul class="list work-examples-list">
             <li>
                 <img src="images/web-site-logo.jpg" alt="Логотип сайта Технокряк" width="370" height="294">
